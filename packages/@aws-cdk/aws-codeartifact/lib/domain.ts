@@ -114,8 +114,6 @@ export class Domain extends DomainBase {
   public readonly domainEncryptionKey: string;
 
   public readonly domainOwner: string;
-  // TODO Implement this or some other fromXxx method
-
 
   constructor(scope: Construct, id: string, props: DomainProps) {
     super(scope, id); // TODO Should we pass any props here?
